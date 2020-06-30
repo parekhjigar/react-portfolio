@@ -5,6 +5,32 @@ export default class Resume extends Component {
     return (
       <section id="resume">
 
+        <div className="row projects">
+          <div className="three columns header-col">
+            <h1><span>Projects</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {
+              resumeData.projects && resumeData.projects.map((item) => {
+                return (
+                  <div className="row item">
+                    <div className="twelve columns">
+                      <h3>{item.projectName}</h3>
+                      <p className="info">
+                        {item.projectDesc}
+                      </p>
+                      <p>
+                        {item.techStack}
+                      </p>
+                    </div>
+                  </div>
+                )
+              })
+            }
+          </div>
+        </div>
+
         <div className="row education">
 
           <div className="three columns header-col">
@@ -23,31 +49,6 @@ export default class Resume extends Component {
                         <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                       <p>
                         {item.Achievements}
-                      </p>
-                    </div>
-                  </div>
-                )
-              })
-            }
-          </div>
-        </div>
-        <div className="row projects">
-          <div className="three columns header-col">
-            <h1><span>Projects</span></h1>
-          </div>
-
-          <div className="nine columns main-col">
-            {
-              resumeData.projects && resumeData.projects.map((item) => {
-                return (
-                  <div className="row item">
-                    <div className="twelve columns">
-                      <h3>{item.projectName}</h3>
-                      <p className="info">
-                        {item.projectDesc}
-                      </p>
-                      <p>
-                        {item.techStack}
                       </p>
                     </div>
                   </div>
