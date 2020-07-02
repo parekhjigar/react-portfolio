@@ -3,7 +3,7 @@ let resumeData = {
     "name": "Jigar Parekh",
     "role": "Frontend Developer",
     "linkedinId":"LinkedIn Id",
-    "roleDescription": "I like explore various parts of frontend development.",
+    "roleDescription": "Pursuing Master of Information Technology, specialized in Machine Learning and Computer Vision. Take a look at my work and if you like it I would love to hear from you!",
     "socialLinks":[
         {
           "name":"linkedin",
