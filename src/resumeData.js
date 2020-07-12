@@ -37,37 +37,44 @@ let resumeData = {
     {
       "projectName": "E-commerce Webapp",
       "projectDesc": "A React based e-commerce webapp with integration of PayPal",
-      "techStack": "MERN (MongoDB, Express, React & Node)"
+      "techStack": "MERN (MongoDB, Express, React & Node)",
+      "url": "http://google.com"
     },
     {
       "projectName": "React Dashboard",
       "projectDesc": "A KPI dashboard to visualise sales data",
-      "techStack": "React"
+      "techStack": "React",
+      "url": "http://google.com"
     },
     {
       "projectName": "Course Garage",
       "projectDesc": "A serverless webapp built with React and hosted on AWS",
-      "techStack": "React, AWS S3, DynamoDB, SageMaker, Lambda, API Gateway, CloudFront"
+      "techStack": "React, AWS S3, DynamoDB, SageMaker, Lambda, API Gateway, CloudFront",
+      "url": "http://google.com"
     },
     {
       "projectName": "Employee Management Webapp",
       "projectDesc": "A functional CRUD web-app using Flask to add, list, edit and delete roles and departments",
-      "techStack": "Python, Flask, SQLAlchemy"
+      "techStack": "Python, Flask, SQLAlchemy",
+      "url": "http://google.com"
     },
     {
       "projectName": "Traffic Sign CNN",
       "projectDesc": "A convolutional neural network to classify traffic sign and shape",
-      "techStack": "Python"
+      "techStack": "Python",
+      "url": "http://google.com"
     },
     {
       "projectName": "Covid Chest Xray CNN",
       "projectDesc": "A convolutional neural network to classify between Covid-19 and Normal Xray",
-      "techStack": "Python"
+      "techStack": "Python",
+      "url": "http://google.com"
     },
     {
       "projectName": "Sign Language Interpreter",
       "projectDesc": "Detecting and Recognizing hand gestures of Indian Hand Sign Language. Blender 3D Models to Teach Language",
-      "techStack": "Python"
+      "techStack": "Python",
+      "url": "http://google.com"
     }
   ]
 }

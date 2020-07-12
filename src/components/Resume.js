@@ -16,12 +16,15 @@ export default class Resume extends Component {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
-                      <h3>{item.projectName}</h3>
+                      <h3><a href={item.url} target="_blank">{item.projectName}</a></h3>
                       <p className="info">
                         {item.projectDesc}
                       </p>
                       <p>
                         {item.techStack}
+                      </p>
+                      <p>
+                        <a href={item.url} target="_blank">View project</a>
                       </p>
                     </div>
                   </div>
