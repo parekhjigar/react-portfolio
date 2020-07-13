@@ -18,7 +18,7 @@ let resumeData = {
   ],
   "aboutme": "I am currently pursuing Master of Information Technology from RMIT University.",
   "address": "Melbourne, Australia",
-  "website": "https://parekhjigar.com",
+  "email": "hello@parekhjigar.com",
   "education": [
     {
       "UniversityName": "RMIT University",

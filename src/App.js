@@ -13,7 +13,7 @@ class App extends Component {
         <Header resumeData={resumeData} />
         <About resumeData={resumeData} />
         <Resume resumeData={resumeData} />
-        <Contact resumeData={resumeData} />
+        {/* <Contact resumeData={resumeData} /> */}
         <Footer resumeData={resumeData} />
       </div>
     );
