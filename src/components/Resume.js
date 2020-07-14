@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Button} from 'react-bootstrap';
+
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -16,7 +18,7 @@ export default class Resume extends Component {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
-                      <h3><a href={item.url} target="_blank">{item.projectName}</a></h3>
+                      <h3>{item.projectName}</h3>
                       <p className="info">
                         {item.projectDesc}
                       </p>
@@ -24,7 +26,7 @@ export default class Resume extends Component {
                         {item.techStack}
                       </p>
                       <p>
-                        <a href={item.url} target="_blank">View project</a>
+                        <a href={item.url} target="_blank"><Button>View project</Button></a>
                       </p>
                     </div>
                   </div>
