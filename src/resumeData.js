@@ -38,43 +38,43 @@ let resumeData = {
       "projectName": "E-commerce Webapp",
       "projectDesc": "A React based e-commerce webapp with integration of PayPal",
       "techStack": "MERN (MongoDB, Express, React & Node)",
-      "url": "http://google.com"
+      "url": "https://github.com/parekhjigar/MERN-Stack"
     },
     {
       "projectName": "React Dashboard",
       "projectDesc": "A KPI dashboard to visualise sales data",
       "techStack": "React",
-      "url": "http://google.com"
+      "url": "https://github.com/parekhjigar/react-dashboard"
     },
     {
       "projectName": "Course Garage",
       "projectDesc": "A serverless webapp built with React and hosted on AWS",
       "techStack": "React, AWS S3, DynamoDB, SageMaker, Lambda, API Gateway, CloudFront",
-      "url": "http://google.com"
+      "url": "https://github.com/parekhjigar/course-garage"
     },
     {
       "projectName": "Employee Management Webapp",
       "projectDesc": "A functional CRUD web-app using Flask to add, list, edit and delete roles and departments",
       "techStack": "Python, Flask, SQLAlchemy",
-      "url": "http://google.com"
+      "url": "https://github.com/parekhjigar/Employee-management-flask"
     },
     {
       "projectName": "Traffic Sign CNN",
       "projectDesc": "A convolutional neural network to classify traffic sign and shape",
       "techStack": "Python",
-      "url": "http://google.com"
+      "url": "https://github.com/parekhjigar/Traffic-sign-classifier-cnn"
     },
     {
       "projectName": "Covid Chest Xray CNN",
       "projectDesc": "A convolutional neural network to classify between Covid-19 and Normal Xray",
       "techStack": "Python",
-      "url": "http://google.com"
+      "url": "https://github.com/parekhjigar/covid-chestxray-cnn"
     },
     {
       "projectName": "Sign Language Interpreter",
       "projectDesc": "Detecting and Recognizing hand gestures of Indian Hand Sign Language. Blender 3D Models to Teach Language",
       "techStack": "Python",
-      "url": "http://google.com"
+      "url": "http://sign-language-tool.herokuapp.com"
     }
   ]
 }
