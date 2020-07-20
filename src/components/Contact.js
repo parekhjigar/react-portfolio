@@ -1,3 +1,4 @@
+/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 export default class Contact extends Component {
   render() {
@@ -6,17 +7,13 @@ export default class Contact extends Component {
       <section id="contact">
         <div className="row section-head">
           <div className="ten columns">
-            <p className="lead">
-              Feel free to contact me!
-              </p>
+            <p className="lead">Feel free to contact me!</p>
           </div>
         </div>
         <div className="row">
           <aside className="eigth columns footer-widgets">
             <div className="widget">
-              <h4>Linked in :
-                  {resumeData.linkedinId}
-              </h4>
+              <h4>Linked in :{resumeData.linkedinId}</h4>
             </div>
           </aside>
         </div>
