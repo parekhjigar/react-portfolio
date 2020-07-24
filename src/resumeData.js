@@ -6,7 +6,7 @@ let resumeData = {
   role: 'Frontend Developer',
   linkedinId: 'LinkedIn Id',
   roleDescription:
-    'Pursuing Master of Information Technology, specialized in Machine Learning and Computer Vision. Take a look at my work and if you like it I would love to hear from you!',
+    'Pursuing Master of Information Technology, specialized in Deep Learning, Machine Learning and Computer Vision along with Web-development and Cloud solutions. Take a look at my work and if you like it I would love to hear from you!',
   socialLinks: [
     {
       name: 'linkedin',
@@ -46,7 +46,7 @@ let resumeData = {
     {
       projectName: 'React Dashboard',
       projectDesc: 'A KPI dashboard to visualise sales data',
-      techStack: 'React',
+      techStack: 'React, Fusion Charts',
       url: 'https://github.com/parekhjigar/react-dashboard',
     },
     {
@@ -65,21 +65,27 @@ let resumeData = {
     {
       projectName: 'Traffic Sign CNN',
       projectDesc: 'A convolutional neural network to classify traffic sign and shape',
-      techStack: 'Python',
+      techStack: 'Python, Convolutional Neural Network',
       url: 'https://github.com/parekhjigar/Traffic-sign-classifier-cnn',
     },
     {
       projectName: 'Covid Chest Xray CNN',
       projectDesc: 'A convolutional neural network to classify between Covid-19 and Normal Xray',
-      techStack: 'Python',
+      techStack: 'Python, Convolutional Neural Network',
       url: 'https://github.com/parekhjigar/covid-chestxray-cnn',
     },
     {
       projectName: 'Sign Language Interpreter',
       projectDesc:
         'Detecting and Recognizing hand gestures of Indian Hand Sign Language. Blender 3D Models to Teach Language',
-      techStack: 'Python',
+      techStack: 'Python, Computer Vision, Convolutional Neural Network',
       url: 'http://sign-language-tool.herokuapp.com',
+    },
+    {
+      projectName: 'Planogram Detection',
+      projectDesc:
+        'Detecting logo of the products placed in the shelf and give a report for the Brand Share of Shelf Space which can be further used for Products Placement to improve the sales.',
+      techStack: 'Python, Computer Vision, Convolutional Neural Network',
     },
   ],
 };
