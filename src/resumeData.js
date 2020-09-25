@@ -38,6 +38,12 @@ let resumeData = {
   ],
   projects: [
     {
+      projectName: 'Head-pose-estimation-cnn',
+      projectDesc:
+        'CNN model capable of estimating Head Pose of a person from monocular face images which is quantified by Tilt: Vertical angle of the head and Pan: Horizontal angle of the head.',
+      techStack: 'Python, Convolutional Neural Network',
+    },
+    {
       projectName: 'E-commerce Webapp',
       projectDesc: 'A React based e-commerce webapp with integration of PayPal',
       techStack: 'MERN (MongoDB, Express, React & Node)',
