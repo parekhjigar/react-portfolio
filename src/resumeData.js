@@ -38,6 +38,12 @@ let resumeData = {
   ],
   projects: [
     {
+      projectName: 'Jemena- mains2me',
+      projectDesc:
+        'The mains2me is a web-based application being built under scrum environment with storyboarding on Notion. ReactJS and NodeJS are used for development and Microsoft Azure is used for deployment. The app will offer a secure environment whereby customer data can be collected and verified for Data Share Agreement electronically along with the enquiry details which includes a search tool that locates the project location and a GIS mapping tool to draw the proposed project site. It will then provide the customers with GIS Spatial data of that particular area via email.',
+      techStack: 'React, Node, Azure B2C, Azure WebApp Service, Azure SQL DB, Github Actions',
+    },
+    {
       projectName: 'Head-pose-estimation-cnn',
       projectDesc:
         'CNN model capable of estimating Head Pose of a person from monocular face images which is quantified by Tilt: Vertical angle of the head and Pan: Horizontal angle of the head.',
